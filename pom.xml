@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <capco.slf.version>1.7.25</capco.slf.version>
+        <capco.junit.version>4.12</capco.junit.version>
     </properties>
 
     <dependencies>
@@ -22,6 +23,13 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>${capco.slf.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${capco.junit.version}</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
